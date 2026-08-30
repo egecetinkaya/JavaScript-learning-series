@@ -1,11 +1,20 @@
-let name = "Ege";
-let age = 19;
+console.log('Hello, World!');
 
-console.log(name);
-console.log(age);
+let email = "ege@gmail.com"
+console.log(email)
 
-age = 30;
-console.log(age);
+let firstName = "Ege"
+let lastName = "Çetinkaya"
 
-const points = 100;
-console.log(points);
+let fullName = firstName + " " + lastName
+console.log(fullName)
+
+console.log(fullName[0])
+
+console.log(fullName.length)
+
+console.log(fullName.toUpperCase())
+console.log(fullName.toLowerCase())
+
+let index = fullName.indexOf("t")
+console.log(index)
