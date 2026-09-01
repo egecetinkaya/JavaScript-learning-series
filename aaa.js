@@ -1,5 +1,14 @@
-let likes = 10;
+const title = "Best reads of 2019";
+const author = "EGE";
+const likes = 30;
 
-let result = "The blog has " + likes + " likes.";
-
+let result = `the blog called ${title} by ${author} has ${likes} likes`;
 console.log(result);
+
+let html = `
+    <h2>${title}</h2>
+    <p>By ${author}</p>
+    <span>This blog has ${likes} likes</span>
+`;
+
+console.log(html);
